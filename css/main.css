@@ -1,0 +1,252 @@
+/* Спецификация */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #304041;
+}
+
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.05em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+section {
+	padding-top: 145px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+
+}
+
+/*Первая секция*/
+
+.header {
+	background: url('../img/background.jpg') no-repeat top center / cover;
+	text-align: center;
+	padding-top: 90px;
+	color: #fff;
+	padding-bottom: 80px;
+}
+
+.logo {
+	margin-bottom: 201px;
+	display: inline-block;
+}
+
+.offer__postscript {
+	background: #fff;
+	color: #000;
+	border-radius: 78px;
+	padding: 8px 17px;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 15px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.offer-title {
+	font-size: 60px;
+	margin: 24px 0px;
+	letter-spacing: 0.15em;
+	color: #fff;
+}
+
+.offer__text {
+	font-size: 20px;
+}
+
+.btn {
+	display: block;
+	margin: 0 auto;
+	padding: 18px 52px;
+	width: 247px;
+	border-radius: 119px;
+	color: #fff;
+	margin-top: 24px;
+	background: #FF7E36;
+	transition: all 0.5s ease;
+	border: 1px solid transparent;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #FF7E36;
+	border: 1px solid #FF7E36;
+}
+
+.arrow-down {
+	margin-top: 217px;
+	opacity: 0.6;
+	transition: all 0.5s ease;
+	display: inline-block;
+}
+
+.arrow-down:hover {
+	margin-top: 217px;
+	opacity: 1;
+}
+
+/* Вторая секция */
+
+.route-content {
+	background: #FFEFF5 url('../img/tower.jpg') no-repeat right top / contain;
+	margin-top: 100px;
+	padding: 112px 0px 112px 73px;
+}
+
+.history__postscript {
+	color: #789AA0;
+}
+
+.container_full-height {
+	padding-left: 72px;
+	padding-top: 112px;
+	padding-bottom: 112px;
+}
+
+.route-content__title {
+	color: #304041;
+	margin-top: 20px;
+}
+
+.route-content__text {
+	width: 521px;
+	margin-top: 40px;
+	font-size: 15px;
+}
+.route-content__text:last-child {
+	margin-bottom: 0;
+}
+
+.route-content__arrow {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.route-btn {
+	display: block;
+	margin: 0 auto;
+	background: #fff;
+	width: 325px;
+	border-radius: 119px;
+	margin-top: 90px;
+	border: 1px solid #FF7E36;
+	color: #FF7E36;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 0.2em;
+	text-align: center;
+}
+
+.route-btn:hover {
+	background: #FF7E36;
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+/* Третья секция */
+
+.capabils {
+	 background: url('../img/paris.jpg') no-repeat right top / 50%;
+	 margin-top: 98px;
+	 padding: 166px 0px;
+}
+
+.capabil__title {
+	text-align: center;
+}
+
+.capabil-list {
+	max-width: 407px;
+}
+
+.capabil-list__item {
+	margin-bottom: 57px;
+
+}
+
+.capabil-list__item:last-child {
+	width: 407px;
+	margin-bottom: 0;
+}
+
+.capabil-list__item::before {
+	content:'';
+	display: block;
+	width: 64px;
+	height: 7px;
+	background: #CD4900;
+	border-radius: 23px;
+	margin-bottom: 15px;
+}
+
+.capabils {
+	display: flex;
+}
+
+.photpa {
+	width: 490px;
+	height: 452px;
+	margin-top: 142px;
+	margin-left: auto;
+}
+
+/* Футер */
+
+.footer {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+.footer-content {
+	display: flex;
+}
+
+.footer-content__item {
+  	color: #5C7677;
+  	font-size: 14px;
+}
+
+.footer-content__item:last-child {
+	margin-left: 60px;
+}
